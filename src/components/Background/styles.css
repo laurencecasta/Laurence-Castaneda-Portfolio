@@ -1,0 +1,15 @@
+.background {
+  position: absolute;
+}
+
+.rectangle-1 {
+  position: absolute;
+  width: 54vw;
+  height: 150vh;
+  left: 65vw;
+  border: 2px solid #8C63FD;
+  box-sizing: border-box;
+  border-radius: 28px;
+  transform: rotate(-37.5deg);
+  z-index: -1;
+}

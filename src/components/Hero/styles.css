@@ -1,0 +1,24 @@
+section {
+  height: 83vh;
+}
+
+.text {
+  margin-left: 71px;
+}
+
+.text h1 {
+  font-size: 56px;
+  font-weight: 900;
+}
+
+.who-i-am {
+  background: -webkit-linear-gradient(0deg, #AE63FD, rgb(52, 203, 220));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+p {
+  font-size: 26px;
+  width: 39%;
+}

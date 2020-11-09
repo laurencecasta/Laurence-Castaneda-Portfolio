@@ -1,0 +1,30 @@
+/*Navigation Bar*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #F5F5F7;
+  text-decoration: none;
+  font-size: 18px;
+  height: 86px;
+  line-height: 86px;
+}
+
+nav .work-link {
+  height: 22px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-right: 43px;
+  padding: 10px 39px;
+  background: #8C63FD;
+  border-radius: 20px;
+}
