@@ -5,7 +5,7 @@ import './styles.css'
 function NavBar() {
   return (
     <header>
-      <h1>LC</h1>
+      <h1 className='logo'>LC</h1>
       <nav>
         <a href='/'>Home</a>
         <a href='/'>About</a>

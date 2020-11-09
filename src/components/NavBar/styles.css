@@ -5,6 +5,11 @@ header {
   justify-content: space-between;
 }
 
+.logo {
+  padding-left: 58px;
+  padding-top: 15px;
+}
+
 nav {
   width: 50%;
   display: flex;

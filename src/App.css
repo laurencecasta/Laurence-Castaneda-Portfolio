@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
 body {
   background: #040305;
   position: relative;
   color: #F5F5F7;
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }

@@ -1,14 +1,21 @@
 section {
   height: 83vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .text {
   margin-left: 71px;
+  margin-top: 239px;
+  width: 46vw;
 }
 
 .text h1 {
   font-size: 56px;
   font-weight: 900;
+  margin: 0;
+  line-height: 67.2px;
 }
 
 .who-i-am {
@@ -20,5 +27,49 @@ section {
 
 p {
   font-size: 26px;
-  width: 39%;
+  margin-top: 0;
+  line-height: 36px;
+  width: 90%;
+}
+
+.image .rectangle {
+  z-index: -1;
+  width: 405px;
+  height: 503px;
+  background: #222129;
+  border-radius: 20px;
+  margin-top: 48px;
+  margin-right: 88px;
+}
+
+img {
+  width: 428px;
+  height: 497px;
+  border-radius: 20px;
+  margin-top: -441px;
+  position: relative;
+  right: 92px;
+}
+
+@media screen and (max-width: 1130px) {
+  .text h1 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+
+  .text p {
+    font-size: 22px;
+    line-height: 140%;
+  }
+
+  .image .rectangle {
+    width: 303.75px;
+    height: 377.25px;
+  }
+
+  img {
+    width: 321px;
+    height: 372.75px;
+
+  }
 }

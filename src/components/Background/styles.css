@@ -1,12 +1,12 @@
 .background {
-  position: absolute;
+  position: relative;
 }
 
 .rectangle-1 {
   position: absolute;
   width: 54vw;
   height: 150vh;
-  left: 65vw;
+  left: 68vw;
   border: 2px solid #8C63FD;
   box-sizing: border-box;
   border-radius: 28px;
