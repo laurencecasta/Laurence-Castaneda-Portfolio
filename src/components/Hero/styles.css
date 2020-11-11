@@ -38,17 +38,26 @@ p {
   height: 503px;
   background: #222129;
   border-radius: 20px;
-  margin-top: 48px;
+  margin-top: 25px;
   margin-right: 88px;
 }
 
-img {
-  width: 428px;
-  height: 497px;
-  border-radius: 20px;
-  margin-top: -441px;
-  position: relative;
-  right: 92px;
+.down-arrow-container {
+  width: 41px;
+  height: 65px;
+  border: 2px solid #8C63FD;
+  border-radius: 25px;
+  margin: auto;
+  animation: 1.5s arrow infinite ease;
+}
+
+@keyframes arrow {
+  0%, 100% {
+    margin-top: -58px;
+  }
+  50% {
+    margin-top: -37px;
+  }
 }
 
 @media screen and (max-width: 1130px) {
