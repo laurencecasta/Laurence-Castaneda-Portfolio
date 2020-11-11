@@ -4,6 +4,7 @@ import './App.css';
 import Background from './components/Background/Background'
 import NavBar from './components/NavBar/NavBar'
 import Hero from './components/Hero/Hero'
+import Projects from './components/Projects/Projects'
 
 class App extends React.Component {
   constructor() {
@@ -19,6 +20,7 @@ class App extends React.Component {
         <Background />
         <NavBar />
         <Hero />
+        <Projects />
       </div>
     )
   }
