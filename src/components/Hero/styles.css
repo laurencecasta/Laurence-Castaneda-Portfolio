@@ -53,10 +53,12 @@ p {
 
 @keyframes arrow {
   0%, 100% {
-    margin-top: -58px;
+    position: relative;
+    top: -58px;
   }
   50% {
-    margin-top: -37px;
+    position: relative;
+    top: -37px;
   }
 }
 
