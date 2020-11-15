@@ -13,3 +13,11 @@ h2 {
   font-size: 45px;
   line-height: 54px;
 }
+
+.cards {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 8vw;
+}

@@ -1,0 +1,52 @@
+.card {
+  margin-left: 8vw;
+  margin-bottom: 64px;
+  width: 320.29px;
+  height: 444px;
+  border-radius: 20px;
+  background: #222129;
+  text-align: left;
+}
+
+.card h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  margin-top: 22px;
+  text-align: left;
+  margin-left: 17.78px;
+}
+
+.card .description {
+  color: #A4A2A2;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 17.78px;
+  margin-top: 8px;
+}
+
+.card .tools {
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 24px;
+  margin-left: 17.78px;
+}
+
+.card a {
+  position: relative;
+  top: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F5F5F6;
+  text-decoration: none;
+  padding: 10px 26px;
+  background: #8C63FD;
+  border-radius: 20px;
+  margin-left: 17.78px;
+}
+
+img {
+  width: 320px;
+  height: 191px;
+  border-radius: 20px 20px 0 0;
+}

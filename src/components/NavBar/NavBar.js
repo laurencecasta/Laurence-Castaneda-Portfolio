@@ -11,7 +11,7 @@ function NavBar() {
         <a href='/'>About</a>
         <a href='/'>Contact</a>
         <a href='/'>Resume</a>
-        <a href='/' className='work-link'>See My Work</a>
+        <a href='#work' className='work-link'>See My Work</a>
       </nav>
     </header>
   )
