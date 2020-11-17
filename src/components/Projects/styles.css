@@ -1,5 +1,6 @@
 .work {
   display: block;
+  height: max-content;
 }
 
 .title {

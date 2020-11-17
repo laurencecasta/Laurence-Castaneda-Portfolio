@@ -1,0 +1,28 @@
+.skillSet {
+  width: max-content;
+}
+
+.skillSet img {
+  width: 38px;
+  height: 38px;
+  display: block;
+  margin: auto;
+}
+
+.skillSet #skillSetName {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.11em;
+  color: #D0D0D0;
+  margin: 14px auto 0px;
+  text-align: center;
+  width: max-content;
+}
+.skillSet .skillItem {
+  font-size: 20px;
+  line-height: 24px;
+  color: #eceaea;
+  margin: 23px auto 0px;
+  text-align: center;
+  width: max-content;
+}
