@@ -31,7 +31,7 @@ function About() {
           When I think about my life and how I want to be remembered, one major thing I want people to say about me is that I solved real problems that stayed solved. At the end of the day, writing code and geeking out over the latest technologies is nothing more than a hobby if I do not leverage this skill and technology to solve important world problems.
           <br/>
           <br/>
-          Nam congue quis nisi ac vehicula. Nullam eu est eu purus cursus accumsan vitae at purus. Nullam blandit ultricies tellus ac scelerisque. Duis ut facilisis mauris, vestibulum convallis ligula. Phasellus metus orci, bibendum cursus suscipit at, consequat at odio. Duis ut vehicula dui. Etiam finibus pharetra sem, lacinia lacinia leo viverra sed. Pellentesque suscipit lectus risus. Nullam at dapibus lorem, id blandit ligula.
+          Nullam blandit ultricies tellus ac scelerisque. Duis ut facilisis mauris, vestibulum convallis ligula. Phasellus metus orci, bibendum cursus suscipit at, consequat at odio. Duis ut vehicula dui. Etiam finibus pharetra sem, lacinia lacinia leo viverra sed. Pellentesque suscipit lectus risus. Nullam at dapibus lorem, id blandit ligula.
         </p>
       </div>
     </section>
