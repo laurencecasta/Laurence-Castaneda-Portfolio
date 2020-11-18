@@ -5,8 +5,34 @@
 .rectangle-1 {
   position: absolute;
   width: 54vw;
-  height: 150vh;
-  left: 68vw;
+  height: 155vh;
+  left: 70vw;
+  border: 2px solid #8C63FD;
+  box-sizing: border-box;
+  border-radius: 28px;
+  transform: rotate(-37.5deg);
+  z-index: -1;
+}
+
+.rectangle-2 {
+  position: absolute;
+  width: 955.67px;
+  height: 955.67px;
+  right: 900px;
+  top: 1200px;
+  border: 2px solid #8C63FD;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transform: rotate(54.38deg);
+  z-index: -1;
+}
+
+.rectangle-3 {
+  position: absolute;
+  width: 857.83px;
+  height: 973.08px;
+  left: 850px;
+  top: 2600px;
   border: 2px solid #8C63FD;
   box-sizing: border-box;
   border-radius: 28px;

@@ -6,6 +6,8 @@ function Background() {
   return (
     <div className='background'>
       <div className='rectangle-1'></div>
+      <div className='rectangle-2'></div>
+      <div className='rectangle-3'></div>
     </div>
   )
 }
