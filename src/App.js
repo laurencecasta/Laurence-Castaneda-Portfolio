@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/NavBar'
 import Hero from './components/Hero/Hero'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
+import About from './components/About/About'
 
 class App extends React.Component {
   constructor() {
@@ -23,6 +24,7 @@ class App extends React.Component {
         <Hero />
         <Projects />
         <Skills />
+        <About />
       </div>
     )
   }
