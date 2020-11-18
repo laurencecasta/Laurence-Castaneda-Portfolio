@@ -1,0 +1,26 @@
+.aboutSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutImg .aboutRectangle {
+  width: 476px;
+  height: 593px;
+  background: #222129;
+  border-radius: 20px;
+  margin-top: 262px;
+  margin-left: 79px;
+}
+
+.aboutImg img {
+  width: 515px;
+  height: 579px;
+  position: relative;
+  top: -656px;
+  left: 156px;
+  border-radius: 20px;
+}
+
+/* .text {
+  margin-left: ;
+} */
