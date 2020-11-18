@@ -1,6 +1,8 @@
 .aboutSection {
   display: flex;
   justify-content: space-between;
+  height: 855px;
+  width: 1311px;
 }
 
 .aboutImg .aboutRectangle {
@@ -21,6 +23,29 @@
   border-radius: 20px;
 }
 
-/* .text {
-  margin-left: ;
-} */
+.text {
+  width: max-content;
+  margin-top: 222px;
+}
+
+#about-title {
+  justify-content: left;
+  margin-bottom: 27px;
+}
+
+.topText {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.005em;
+  color: #F5F5F7;
+  width: 503px;
+}
+
+.textBody {
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.005em;
+  color: rgba(214, 214, 214, 0.85);
+  width: 493px;
+}

@@ -20,8 +20,7 @@ function Hero() {
     height: '15.56px',
     right: '0px',
     display: 'block',
-    margin: 'auto',
-    'margin-top': '25px',
+    margin: '25px auto 0px',
   }
   
   return (
