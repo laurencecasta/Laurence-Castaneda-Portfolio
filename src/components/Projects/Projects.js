@@ -62,7 +62,7 @@ function Projects() {
         />
         <Card
           image={schoolPage}
-          title='Project Title'
+          title='School Landing Page'
           description='This is a description of this project. This is a description of this project'
           tools='HTML, CSS, JAVASCRIPT'
           link='/'
