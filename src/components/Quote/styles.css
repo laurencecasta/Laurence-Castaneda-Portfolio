@@ -1,0 +1,45 @@
+.quoteTxt {
+  display: flex;
+  background: #222129;
+  width: 561px;
+  height: 250.62px;
+  border-radius: 20px;
+}
+
+.quoteTxt p {
+  margin-top: 56.61px;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.005em;
+  color: #F5F5F7;
+  width: 485px;
+}
+
+.pointer {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #222129;
+  margin: auto;
+}
+
+.author-name {
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.005em;
+  width: max-content;
+  text-align: center;
+  margin: 4px auto 0;
+}
+
+.occupation {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: #D0D0D0;
+  width: max-content;
+  text-align: center;
+  margin: 5px auto 0;
+}
