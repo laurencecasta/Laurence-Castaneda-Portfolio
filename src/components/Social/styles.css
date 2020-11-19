@@ -1,0 +1,14 @@
+.socials {
+  display: flex;
+  margin-top: 48px;
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+.socials span {
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #D6D6D6;
+  margin: auto 0 auto 9px;
+}

@@ -1,8 +1,13 @@
 import React from 'react'
 
+import Social from '../Social/Social'
+
 import './styles.css'
 
 import underscore from './underscore.png'
+import linkedin from './linkedin.png'
+import github from './github.png'
+import mail from './mail.png'
 
 function Contact() {
   const underscoreStyle = {
@@ -29,7 +34,18 @@ function Contact() {
         </form>
       </div>
       <div className='contact-right'>
-        right section goes here
+        <Social
+          icon={linkedin}
+          socialName='LinkedIn'
+        />
+        <Social
+          icon={github}
+          socialName='GitHub'
+        />
+        <Social
+          icon={mail}
+          socialName='larrycasta11@gmail.com'
+        />
       </div>
     </section>
   )

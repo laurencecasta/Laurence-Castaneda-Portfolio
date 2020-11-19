@@ -93,3 +93,7 @@ button:focus {
 button:hover {
   background: #7e58e6;
 }
+
+.contact-right {
+  margin-left: 38px;
+}
