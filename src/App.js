@@ -8,6 +8,7 @@ import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import About from './components/About/About'
 import Testimonies from './components/Testimonies/Testimonies'
+import Contact from './components/Contact/Contact'
 
 class App extends React.Component {
   constructor() {
@@ -27,6 +28,7 @@ class App extends React.Component {
         <Skills />
         <About />
         <Testimonies />
+        <Contact />
       </div>
     )
   }
