@@ -29,7 +29,7 @@ function Hero() {
         <div className='text'>
           <h1>Hi, my name is Laurence.</h1>
           <h1 className='who-i-am'>I'm a full-stack developer.</h1>
-          <p>I help businesses expand their vision by leveraging the power of tech to solve important problems.</p>
+          <p>I help businesses focus on vision by leveraging the power of tech to solve their most important problems.</p>
         </div>
         <div className='image'>
           <div className='rectangle'></div>

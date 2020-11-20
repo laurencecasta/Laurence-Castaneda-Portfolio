@@ -16,7 +16,7 @@ function Contact() {
     'padding-top': '47px',
   }
   return (
-    <section className='contact'>
+    <section className='contact' id='contact'>
       <div className='contact-left'>
         <div className='title' id='contact-title'>
           <h2>Let's Connect!</h2>
@@ -37,14 +37,17 @@ function Contact() {
         <Social
           icon={linkedin}
           socialName='LinkedIn'
+          link='https://www.linkedin.com/in/laurence-castaneda-523965137/'
         />
         <Social
           icon={github}
           socialName='GitHub'
+          link='https://github.com/laurencecasta'
         />
         <Social
           icon={mail}
           socialName='larrycasta11@gmail.com'
+          link='mailto: larrycasta11@gmail.com'
         />
       </div>
     </section>

@@ -1,0 +1,25 @@
+footer {
+  width: 100vw;
+  height: max-content;
+  background: #222129;
+  margin-top: 193px;
+}
+
+footer p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #D8D8D8;
+  width: 561px;
+  margin: 6px auto 0;
+}
+
+.footerSocials {
+  width: max-content;
+  margin: 30px auto 0;
+  padding-bottom: 69px;
+}
+
+.footerSocials a {
+  margin-right: 25px
+}
