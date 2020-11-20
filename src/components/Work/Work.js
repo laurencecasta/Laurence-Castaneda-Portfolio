@@ -12,7 +12,7 @@ import library from './Library-App.jpg'
 import sketch from './Etch-a-Sketch.jpg'
 import schoolPage from './School-Page.jpg'
 
-function Projects() {
+function Work() {
   const underscoreStyle = {
     width: '30px',
     height: '7px',
@@ -72,4 +72,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Work
