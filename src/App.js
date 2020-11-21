@@ -14,6 +14,7 @@ import About from './components/About/About'
 import Testimonies from './components/Testimonies/Testimonies'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Projects from './components/Projects/Projects'
 
 class App extends React.Component {
   constructor() {
@@ -28,6 +29,7 @@ class App extends React.Component {
       <div>
         <NavBar />
         <Switch>
+          <Route component={Projects} path='/projects' />
           <Route component={Home} path='/' />
         </Switch>
         <Contact />

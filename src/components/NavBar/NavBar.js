@@ -14,10 +14,10 @@ function NavBar() {
   }
   return (
     <header>
-      <img style={logoStyle} src={logo} alt='logo'></img>
+      <a href='/'><img style={logoStyle} src={logo} alt='logo'></img></a>
       <nav>
         <a href='/'>Home</a>
-        <a href='#about'>About</a>
+        <a href='/#about'>About</a>
         <a href='#contact'>Contact</a>
         <a href='/'>Resume</a>
         <a href='#work' className='work-link'>See My Work</a>

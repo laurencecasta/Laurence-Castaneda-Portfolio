@@ -1,0 +1,60 @@
+header {
+  display: flex;
+}
+
+.header-txt {
+  margin-left: 90px;
+}
+
+header h1 {
+  margin-top: 132px;
+  font-size: 56px;
+  line-height: 67px;
+}
+
+header p {
+  font-size: 26px;
+  line-height: 140%;
+  color: #A4A2A2;
+  width: 561px;
+  margin-top: 28px;
+}
+
+.run-down {
+  margin-top: 52.04px;
+  display: flex;
+  justify-content: space-between;
+  width: 615px;
+}
+
+.rundown div {
+  display: table;
+}
+
+.run-down h4 {
+  display: block;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  margin-bottom: 25.85px;
+}
+
+.run-down li{
+  display: table-caption;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #D6D6D6;
+  margin-bottom: 16px;
+}
+
+.project-img-back {
+  width: 405px;
+  height: 503px;
+  background: #222129;
+  border-radius: 20px;
+  margin-right: 115px;
+  margin-top: 56px;
+}

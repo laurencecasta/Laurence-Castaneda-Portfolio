@@ -30,42 +30,42 @@ function Work() {
           title='Restaurant Landing Page'
           description='This is a description of this project. This is a description of this project'
           tools='HTML, CSS, JAVASCRIPT'
-          link='/'
+          link='/projects/restaurantpage'
         />
         <Card
           image={browserCalculator}
           title='Browser Calculator'
           description='This is a description of this project. This is a description of this project'
           tools='HTML, CSS, JAVASCRIPT'
-          link='/'
+          link='/projects/calculator'
         />
         <Card
           image={library}
           title='Library App'
           description='This is a description of this project. This is a description of this project'
           tools='HTML, CSS, JAVASCRIPT'
-          link='/'
+          link='/projects/library'
         />
         <Card
           image={toDoList}
           title='To Do List'
           description='This is a description of this project. This is a description of this project'
           tools='HTML, CSS, JAVASCRIPT'
-          link='/'
+          link='/projects/todolist'
         />
         <Card
           image={sketch}
           title='Etch-a-Sketch'
           description='This is a description of this project. This is a description of this project'
           tools='HTML, CSS, JAVASCRIPT'
-          link='/'
+          link='/projects/sketch'
         />
         <Card
           image={schoolPage}
           title='School Landing Page'
           description='This is a description of this project. This is a description of this project'
           tools='HTML, CSS, JAVASCRIPT'
-          link='/'
+          link='/projects/schoolpage'
         />
       </div>
     </section>
