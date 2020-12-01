@@ -21,7 +21,7 @@ function Projects() {
           <Project
             title='Restaurant Landing Page'
             summary='This is a brief summary of restaurant page. This is a brief summary of restaurant page. This is a brief summary of restaurant page.'
-            roles={['Front End Developer', 'Back End Developer']}
+            roles={['Front End\nDeveloper', 'Back End\nDeveloper']}
             languages={['JavaScript', 'HTML', 'CSS', 'React.js']}
             tools={['VS Code', 'NPM', 'Git', 'Webpack']}
             img={donuts}
@@ -31,7 +31,7 @@ function Projects() {
           <Project
             title='Browser Calculator'
             summary='This is a brief summary of calculator. This is a brief summary of calculator. This is a brief summary of calculator.'
-            roles={['Front End Developer', 'Back End Developer']}
+            roles={['Front End\nDeveloper', 'Back End\nDeveloper']}
             languages={['JavaScript', 'HTML', 'CSS']}
             tools={['VS Code', 'NPM', 'Git']}
             img={calculator}
@@ -41,7 +41,7 @@ function Projects() {
           <Project
             title='Library App'
             summary='This is a brief summary of library. This is a brief summary of library. This is a brief summary of library.'
-            roles={['Front End Developer', 'Back End Developer']}
+            roles={['Front End\nDeveloper', 'Back End\nDeveloper']}
             languages={['JavaScript', 'HTML', 'CSS']}
             tools={['VS Code', 'NPM', 'Git']}
             img={library}

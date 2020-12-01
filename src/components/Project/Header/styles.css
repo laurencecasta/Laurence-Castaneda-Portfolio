@@ -1,5 +1,6 @@
 header {
   display: flex;
+  height: fit-content;
 }
 
 .header-txt {
@@ -24,11 +25,12 @@ header p {
   margin-top: 52.04px;
   display: flex;
   justify-content: space-between;
-  width: 615px;
+  width: 530px;
+  height: max-content;
 }
 
-.rundown div {
-  display: table;
+.run-down div {
+  width: fit-content;
 }
 
 .run-down h4 {
@@ -40,14 +42,19 @@ header p {
   margin-bottom: 25.85px;
 }
 
+.run-down ul {
+  position: absolute;
+}
+
 .run-down li{
-  display: table-caption;
   list-style: none;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   color: #D6D6D6;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
+  width: 100%;
+  text-align: left;
 }
 
 .project-img-back {

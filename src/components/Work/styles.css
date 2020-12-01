@@ -3,6 +3,12 @@
   height: max-content;
 }
 
+.other-work {
+  display: block;
+  height: max-content;
+  margin-top: 144px;
+}
+
 .title {
   width: 100%;
   display: flex;

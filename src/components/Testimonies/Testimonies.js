@@ -21,13 +21,13 @@ function Testimonies() {
       </div>
       <div className='quotes'>
         <Quote
-          quote='You can turn an idea into reality with very little time and very few resources. The only potential bottleneck is your own creativity and your own mind, so the possibilities are endless.'
+          quote='Laurence brings a high level of integrity and compassion to the table. His passion to do things right, while doing the right thing, adds tremendous value to any team.'
           avatar={trey}
           name='Trey Rose'
           occupation='lead pastor'
         />
         <Quote
-          quote='You can turn an idea into reality with very little time and very few resources. The only potential bottleneck is your own creativity and your own mind, so the possibilities are endless.'
+          quote='Laurence brings a high level of integrity and compassion to the table. His passion to do things right, while doing the right thing, adds tremendous value to any team.'
           avatar={trey}
           name='Trey Rose'
           occupation='lead pastor'

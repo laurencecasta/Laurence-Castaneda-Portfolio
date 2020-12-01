@@ -2,7 +2,8 @@
   display: flex;
   background: #222129;
   width: 561px;
-  height: 250.62px;
+  height: max-content;
+  padding-bottom: 39px;
   border-radius: 20px;
 }
 

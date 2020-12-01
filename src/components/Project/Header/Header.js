@@ -11,9 +11,8 @@ function Header(props) {
     width: '428px',
     height: '497px',
     'border-radius': '20px',
-    position: 'relative',
-    top: '-441px',
-    right: '92px'
+    'margin-top': '-441px',
+    'margin-left': '-92px'
   }
   return (
     <header>
@@ -22,16 +21,16 @@ function Header(props) {
         <p>{summary}</p>
         <div className='run-down'>
           <div>
-            <h4>My Role</h4>
-            <ul>{renderedRoles}</ul>
-          </div>
-          <div>
-            <h4>Languages/Frameworks</h4>
+            <h4>Languages</h4>
             <ul>{renderedLanguages}</ul>
           </div>
           <div>
-            <h4>Tools</h4>
+            <h4>Tools/Frameworks</h4>
             <ul>{renderedTools}</ul>
+          </div>
+          <div>
+            <h4>My Role</h4>
+            <ul>{renderedRoles}</ul>
           </div>
         </div>
       </div>
