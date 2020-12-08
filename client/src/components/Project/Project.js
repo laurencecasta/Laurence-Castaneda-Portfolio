@@ -5,7 +5,8 @@ import Main from './Main/Main'
 import OtherWork from './OtherWork/OtherWork'
 
 function Project(props) {
-  const { title, summary, roles, languages, tools, imgPath } = props;
+  const { title, summary, roles, languages, tools, imgPath,
+    scopeDescription, processDescription, processDescription2, resultDescription } = props;
   return (
     <div>
       <Header
@@ -16,7 +17,12 @@ function Project(props) {
         tools={tools}
         imgPath={imgPath}
       />
-      <Main />
+      <Main
+        scopeDescription={scopeDescription}
+        processDescription={processDescription}
+        processDescription2={processDescription2}
+        resultDescription={resultDescription}
+      />
       <OtherWork
         currentTitle={title}
       />
