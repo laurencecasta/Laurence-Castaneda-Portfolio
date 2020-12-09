@@ -150,11 +150,56 @@ button:hover {
   }
 
   input {
-    width: 281px;
+    width: 91.5vw;
   }
 
   textarea {
-    width: 281px;
+    width: 91.5vw;
+  }
+
+  .contact-end {
+    flex-direction: column;
+    margin-left: 13px;
+    padding-bottom: 37px;
+  }
+
+  /* button {
+    margin: 27px auto 47.63px;
+  } */
+}
+
+@media (max-width: 320px) {
+  .contact-start {
+    padding-left: 0;
+  }
+  #contact-form {
+    padding-left: 12px;
+  }
+
+  #contact-title, #contact-prompt {
+    padding-left: 0;
+  }
+
+  #contact-title {
+    justify-content: center;
+  }
+
+  .contact-start p {
+    text-align: center;
+    width: 253px;
+    margin: 8px auto 0;
+  }
+
+  label {
+    margin-top: 17px;
+  }
+
+  input {
+    width: 89vw;
+  }
+
+  textarea {
+    width: 89vw;
   }
 
   .contact-end {

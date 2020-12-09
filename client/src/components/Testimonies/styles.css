@@ -31,7 +31,20 @@
    .quotes {
      margin-top: 0px;
      margin-bottom: 84px;
-     margin-left: 13px;
+     margin-left: 15vw;
      width: 294px;
    }
+}
+
+@media (max-width: 320px) {
+  .testimonies {
+    margin-top: 115px;
+  }
+
+  .quotes {
+    margin-top: 0px;
+    margin-bottom: 84px;
+    margin-left: 13px;
+    width: 294px;
+  }
 }

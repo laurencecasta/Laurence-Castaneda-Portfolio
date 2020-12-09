@@ -102,6 +102,42 @@
   .aboutImg .aboutRectangle {
     width: 229.27px;
     height: 280.59px;
+    margin-left: 16vw;
+    margin-top: 149.41px;
+  }
+
+  .aboutImg img {
+    width: 247.58px;
+    height: 273.44px;
+    position: relative;
+    top: -310px;
+    left: 26vw;
+  }
+
+  .text {
+    margin-top: 48px;
+    margin-left: 19px;
+  }
+
+  .topText, .textBody {
+    width: 92.5vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .aboutSection {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .aboutImg {
+    height: 429px;
+    justify-content: flex-start;
+  }
+
+  .aboutImg .aboutRectangle {
+    width: 229.27px;
+    height: 280.59px;
     margin-left: 19px;
     margin-top: 149.41px;
   }
