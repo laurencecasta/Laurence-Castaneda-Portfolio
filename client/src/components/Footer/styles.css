@@ -23,3 +23,31 @@ footer p {
 .footerSocials a {
   margin-right: 25px
 }
+
+@media (max-width: 768px) {
+  footer {
+    margin-top: 62px;
+  }
+}
+
+@media (max-width: 425px) {
+  footer {
+    margin-top: 114px;
+  }
+
+  footer p {
+    width: 276px;
+  }
+
+  .footerSocials {
+    display: flex;
+    flex-direction: column;
+    margin: 52px auto 0;
+    padding-bottom: 18px;
+  }
+
+  .footerSocials a {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+}

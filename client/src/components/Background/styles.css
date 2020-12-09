@@ -52,3 +52,59 @@
   transform: rotate(-37.5deg);
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .rectangle-1 {
+    position: absolute;
+    width: 515px;
+    height: 688px;
+    right: 300px;
+    top: -100px;
+    border: 2px solid #8C63FD;
+    box-sizing: border-box;
+    border-radius: 28px;
+    transform: rotate(-31.73deg);
+  }
+
+  .rectangle-2 {
+    position: absolute;
+    width: 767.94px;
+    height: 790.46px;
+    left: -360px;
+    top: 723px;
+    border: 2px solid #8C63FD;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(54.38deg);
+  }
+
+  .rectangle-3 {
+    position: absolute;
+    width: 757.19px;
+    height: 790.46px;
+    left: 400px;
+    top: 1950px;
+    border: 2px solid #8C63FD;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(54.38deg);
+  }
+
+  .rectangle-4 {
+    position: absolute;
+    width: 757.19px;
+    height: 801.39px;
+    left: -50px;
+    top: 3850px;
+    border: 2px solid #8C63FD;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(54.38deg);
+  }
+}
+
+@media (max-width: 425px) {
+  .background {
+    display: none;
+  }
+}

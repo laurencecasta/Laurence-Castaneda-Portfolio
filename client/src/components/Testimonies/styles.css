@@ -11,5 +11,27 @@
   margin-right: 130px;
   margin-top: 74px;
   width: 1200px;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .quotes {
+    width: 100%;
+    margin-left: 103px;
+    margin-top: 45px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+   .testimonies {
+     margin-top: 115px;
+   }
+
+   .quotes {
+     margin-top: 0px;
+     margin-bottom: 84px;
+     margin-left: 13px;
+     width: 294px;
+   }
 }

@@ -22,3 +22,15 @@
 .github-link {
   border: 1px solid #34C5D7;
 }
+
+@media (max-width: 425px) {
+  .project-links {
+    flex-direction: column;
+    width: max-content;
+    margin: 26px auto 0;
+  }
+
+  .project-links a {
+    margin-bottom: 22px;
+  }
+}

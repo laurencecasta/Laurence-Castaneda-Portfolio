@@ -44,9 +44,35 @@
   border-radius: 20px;
   margin-left: 17.78px;
 }
-
-img {
+.cardImg {
   width: 320px;
   height: 191px;
   border-radius: 20px 20px 0 0;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-left: 5vw;
+    margin-bottom: 46px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    width: 293.41px;
+    height: 415px;
+  }
+
+  .cardImg {
+    width: 285px;
+    height: 174px;
+  }
+
+  .card h2, .card .description, .card .tools, .card a {
+    margin-left: 10px;
+  }
+
+  .card .description {
+    width: 90%;
+  }
 }

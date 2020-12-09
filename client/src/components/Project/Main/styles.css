@@ -26,3 +26,43 @@ main p {
 .result {
   margin-top: 23px;
 }
+
+@media (max-width: 768px) {
+  main {
+    margin-left: 138px;
+    margin-top: 154px;
+  }
+
+  .process-container {
+    justify-content: flex-start;
+    margin-top: 157px;
+  }
+
+  .result {
+    margin-top: 157px;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    margin-left: 15px;
+    margin-top: 95px;
+  }
+
+  main p {
+    width: 98%;
+  }
+
+  .process-container {
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .process-container p {
+    width: 98%;
+  }
+
+  .result {
+    margin-top: 100px;
+  }
+}

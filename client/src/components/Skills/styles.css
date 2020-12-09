@@ -16,3 +16,28 @@
   margin-right: 74px;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  #skills {
+    width: 100%;
+    margin-top: 91px;
+    margin-left: 0px;
+    border-radius: 0px;
+    height: 480px;
+  }
+
+  .skillSets {
+    margin-top: 39px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  #skills {
+    height: max-content;
+  }
+  .skillSets {
+    flex-direction: column;
+  }
+}

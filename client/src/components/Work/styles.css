@@ -21,10 +21,34 @@ h2 {
   line-height: 54px;
 }
 
+.underscore {
+  width: 30px;
+  height: 7px;
+  padding-top: 47px;
+}
+
 .cards {
   margin-top: 25px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-right: 8vw;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .underscore {
+    width: 24px;
+    height: 5px;
+    padding-top: 30px;
+  }
+
+  .cards {
+    margin-top: 49px;
+    margin-right: 5vw;
+  }
 }

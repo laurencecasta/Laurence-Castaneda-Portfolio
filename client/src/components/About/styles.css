@@ -28,6 +28,11 @@
   margin-top: 222px;
 }
 
+.text {
+  margin-top: 161px;
+  margin-right: 38px;
+}
+
 #about-title {
   justify-content: left;
   margin-bottom: 27px;
@@ -48,4 +53,73 @@
   letter-spacing: 0.005em;
   color: rgba(214, 214, 214, 0.85);
   width: 493px;
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    width: 100%;
+  }
+  
+  .aboutImg img {
+    width: 271.9px;
+    height: 319.3px;
+    position: relative;
+    top: -362px;
+    left: 61.09px;
+  }
+
+  .aboutImg .aboutRectangle {
+    width: 251.8px;
+    height: 327.66px;
+    margin-left: 20px;
+    margin-top: 195.34px;
+  }
+
+  .topText {
+    font-size: 20px;
+    line-height: 130%;
+    width: 358px;
+  }
+
+  .textBody {
+    font-size: 16px;
+    line-height: 21px;
+    width: 358px;
+  }
+}
+
+@media (max-width: 425px) {
+  .aboutSection {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .aboutImg {
+    height: 429px;
+    justify-content: flex-start;
+  }
+
+  .aboutImg .aboutRectangle {
+    width: 229.27px;
+    height: 280.59px;
+    margin-left: 19px;
+    margin-top: 149.41px;
+  }
+
+  .aboutImg img {
+    width: 247.58px;
+    height: 273.44px;
+    position: relative;
+    top: -310px;
+    left: 56.42px;
+  }
+
+  .text {
+    margin-top: 48px;
+    margin-left: 19px;
+  }
+
+  .topText, .textBody {
+    width: 289px;
+  }
 }

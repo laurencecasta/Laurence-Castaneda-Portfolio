@@ -26,3 +26,9 @@
   text-align: center;
   width: max-content;
 }
+
+@media (max-width: 425px) {
+  .skillSet {
+    margin: 0 auto 43px;
+  }
+}

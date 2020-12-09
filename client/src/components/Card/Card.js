@@ -7,7 +7,7 @@ function Card(props) {
   const listTools = tools.join(', ')
   return (
     <div className='card'>
-      <img src={imgPath} alt='Project Thumbnail'></img>
+      <img className='cardImg' src={imgPath} alt='Project Thumbnail'></img>
       <h2>{title}</h2>
       <p className='description'>{description}</p>
       <p className='tools'>{listTools}</p>

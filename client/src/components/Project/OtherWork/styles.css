@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .other-work {
+    margin-bottom: 126px;
+  }
+}
+
+@media (max-width: 425px) {
+  .other-work {
+    margin-bottom: 47px;
+    margin-top: 78px;
+  }
+}
