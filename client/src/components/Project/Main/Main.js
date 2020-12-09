@@ -25,7 +25,6 @@ function Main(props) {
             <img className='underscore' src={underscore} alt='underscore'></img>
           </div>
           <p>{ processDescription }</p>
-          <br />
           <p>{ processDescription2 }</p>
         </div>
       </div>
