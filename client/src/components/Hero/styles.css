@@ -1,17 +1,17 @@
-section {
-  height: 83vh;
+.hero {
+  height: max-content;
   width: 100vw;
   display: flex;
   justify-content: space-between;
 }
 
-.text {
+.hero-text {
   margin-left: 71px;
   margin-top: 239px;
   width: 46vw;
 }
 
-.text h1 {
+.hero-text h1 {
   font-size: 56px;
   font-weight: 900;
   margin: 0;
@@ -22,7 +22,6 @@ section {
   background: -webkit-linear-gradient(0deg, #AE63FD, rgb(52, 203, 220));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 p {
@@ -30,6 +29,16 @@ p {
   margin-top: 0;
   line-height: 36px;
   width: 70%;
+  color: #A4A2A2;
+}
+
+#hero-img {
+  width: 428px;
+  height: 497px;
+  border-radius: 20px;
+  margin-top: -441px;
+  position: relative;
+  right: 92px;
 }
 
 .image .rectangle {
@@ -54,33 +63,71 @@ p {
 @keyframes arrow {
   0%, 100% {
     position: relative;
-    top: -58px;
+    top: -20px;
   }
   50% {
     position: relative;
-    top: -37px;
+    top: 0px;
   }
 }
 
-@media screen and (max-width: 1130px) {
-  .text h1 {
-    font-size: 33px;
-    line-height: 40px;
+@media screen and (max-width: 768px) {
+  .hero-text {
+    margin-left: 20px;
+    margin-top: 109px;
+    width: 407px;
   }
 
-  .text p {
+  .hero-text h1 {
+    font-size: 33px;
+    line-height: 40px;
+    width: 100%;
+  }
+
+  .hero-text p {
     font-size: 22px;
     line-height: 140%;
+    width: 100%;
+  }
+
+  #hero-img {
+    width: 268px;
+    height: 311px;
+    position: relative;
+    right: 58px;
+    margin-top: -276px;
   }
 
   .image .rectangle {
-    width: 303.75px;
-    height: 377.25px;
+    width: 253px;
+    height: 315px;
+    margin-right: 20px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero {
+    flex-direction: column;
+  }  
+  .hero-text {
+    margin-left: 15px;
+    margin-top: 29px;
+    width: 295px;
   }
 
-  img {
-    width: 321px;
-    height: 372.75px;
+  .image .rectangle {
+    width: 231.85px;
+    height: 278.14px;
+    margin-left: 68.15px;
+    margin-top: 28px;
+  }
 
+  #hero-img {
+    width: 245.59px;
+    height: 274.61px;
+    position: relative;
+    left: 15px;
+    margin-top: -243.7px;
   }
 }

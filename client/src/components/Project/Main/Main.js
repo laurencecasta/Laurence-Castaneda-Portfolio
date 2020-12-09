@@ -8,17 +8,12 @@ import underscore from './underscore.png'
 
 function Main(props) {
   const { scopeDescription, processDescription, processDescription2, resultDescription } = props;
-  const underscoreStyle = {
-    width: '30px',
-    height: '7px',
-    paddingTop: '47px',
-  }
   return (
     <main>
       <div className='scope'>
         <div className='title' id='about-title'>
           <h2>Project Scope</h2>
-          <img style={underscoreStyle} src={underscore} alt='underscore'></img>
+          <img className='underscore' src={underscore} alt='underscore'></img>
         </div>
         <p>{ scopeDescription }</p>
       </div>
@@ -27,7 +22,7 @@ function Main(props) {
         <div className='process'>
           <div className='title' id='process-title'>
             <h2>The Process</h2>
-            <img style={underscoreStyle} src={underscore} alt='underscore'></img>
+            <img className='underscore' src={underscore} alt='underscore'></img>
           </div>
           <p>{ processDescription }</p>
           <br />
@@ -37,7 +32,7 @@ function Main(props) {
       <div className='result'>
         <div className='title' id='about-title'>
           <h2>The Result</h2>
-          <img style={underscoreStyle} src={underscore} alt='underscore'></img>
+          <img className='underscore' src={underscore} alt='underscore'></img>
         </div>
         <p>{ resultDescription }</p>
       </div>

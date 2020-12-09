@@ -6,13 +6,6 @@ import './styles.css'
 
 function Quote(props) {
   const { quote, avatar, name, occupation } = props;
-  const quoteStyle = {
-    width: '28px',
-    height: '24.22px',
-    borderRadius: '0px',
-    marginTop: '32px',
-    marginLeft: '22px'
-  }
   const avatarStyle = {
     width: '93px',
     height: '93px',
@@ -24,7 +17,7 @@ function Quote(props) {
   return (
     <div className='quote'>
       <div className='quoteTxt'>
-        <img style={quoteStyle} src={quoteIcon} alt='quote icon'></img>
+        <img className='quoteIcon' src={quoteIcon} alt='quote icon'></img>
         <p>{quote}</p>
       </div>
       <div className='pointer'></div>

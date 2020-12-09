@@ -42,16 +42,11 @@ function Work() {
     )
   }) : null;
 
-  const underscoreStyle = {
-    width: '30px',
-    height: '7px',
-    paddingTop: '47px',
-  }
   return (
     <section className='work' id='work'>
       <div className='title'>
         <h2>Work</h2>
-        <img style={underscoreStyle} src={underscore} alt='underscore'></img>
+        <img className='underscore' src={underscore} alt='underscore'></img>
       </div>
       <div className='cards'>
         { renderedCards }

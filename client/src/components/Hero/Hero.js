@@ -6,15 +6,6 @@ import heroImg from './portfolio-hero.jpg'
 import downArrow from './downArrow.png'
 
 function Hero() {
-  const heroImgStyle = {
-    width: '428px',
-    height: '497px',
-    borderRadius: '20px',
-    marginTop: '-441px',
-    position: 'relative',
-    right: '92px',
-  }
-
   const downArrowStyle = {
     width: '25.56px',
     height: '15.56px',
@@ -25,15 +16,15 @@ function Hero() {
   
   return (
     <div>
-      <section>
-        <div className='text'>
+      <section className='hero'>
+        <div className='hero-text'>
           <h1>Hi, my name is Laurence.</h1>
           <h1 className='who-i-am'>I'm a full-stack developer.</h1>
-          <p>I help businesses focus on vision by leveraging the power of tech to solve their most important problems.</p>
+          <p>I can help you focus on your vision by leveraging the power of tech to solve your most important problems.</p>
         </div>
         <div className='image'>
           <div className='rectangle'></div>
-          <img style={ heroImgStyle } src={heroImg} alt='Hero Portrait'></img>
+          <img id='hero-img' src={heroImg} alt='Hero Portrait'></img>
         </div>
       </section>
       <div className='down-arrow-container'>

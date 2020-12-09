@@ -6,11 +6,6 @@ import aboutImg from './about-picture.jpg'
 import underscore from './underscore.png'
 
 function About() {
-  const underscoreStyle = {
-    width: '30px',
-    height: '7px',
-    paddingTop: '47px',
-  }
   return (
     <section className='aboutSection' id='about'>
       <div className='aboutImg'>
@@ -20,7 +15,7 @@ function About() {
       <div className='text'>
         <div className='title' id='about-title'>
           <h2>About Me</h2>
-          <img style={underscoreStyle} src={underscore} alt='underscore'></img>
+          <img className='underscore' src={underscore} alt='underscore'></img>
         </div>
         <p className='topText'>I grew up very interested in everything STEM. As a kid, I watched Sci-Fi movies like they were my food and water, and I dreamed of a time where the crazy technology of Star Wars would manifest as a reality.</p>
         <br/>
@@ -31,7 +26,7 @@ function About() {
           When I think about my life and how I want to be remembered, one major thing I want people to say about me is that I solved real problems that stayed solved. At the end of the day, writing code and geeking out over the latest technologies is nothing more than a hobby if I do not leverage this skill and technology to solve important world problems.
           <br/>
           <br/>
-          Nullam blandit ultricies tellus ac scelerisque. Duis ut facilisis mauris, vestibulum convallis ligula. Phasellus metus orci, bibendum cursus suscipit at, consequat at odio. Duis ut vehicula dui. Etiam finibus pharetra sem, lacinia lacinia leo viverra sed. Pellentesque suscipit lectus risus. Nullam at dapibus lorem, id blandit ligula.
+          When I am not coding I love to go on new adventures with my wife, Makayla. We love to travel every chance that we get. I also love to make music. I play the guitar, bass, and piano. My creativity awakens when I am behind one of these instruments the same way it does when I am behind the keyboard solving a problem with code!
         </p>
       </div>
     </section>

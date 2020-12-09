@@ -3,6 +3,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  width: 100vw;
 }
 
 .logo {
@@ -10,13 +11,27 @@ header {
   padding-top: 15px;
 }
 
-nav {
+.nav-menu {
   width: 50%;
   display: flex;
   justify-content: space-between;
 }
 
-nav a {
+.nav-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-link {
+  display: inline;
+  height: 100%;
+  margin: auto;
+}
+
+.nav-menu a {
   color: #F5F5F7;
   text-decoration: none;
   font-size: 18px;
@@ -24,16 +39,78 @@ nav a {
   line-height: 86px;
 }
 
-nav a:hover {
+.nav-menu a:hover {
   color: #b7b7d1;
 }
 
-nav .work-link {
+.work-link {
   height: 22px;
-  line-height: 22px;
   margin-top: 20px;
   margin-right: 43px;
   padding: 10px 39px;
   background: #8C63FD;
   border-radius: 20px;
+}
+.work-link a {
+  line-height: 22px;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 18px;
+  height: 12px;
+}
+
+.toggle-button .bar {
+  height: 1.8px;
+  width: 100%;
+  background-color: white;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-menu {
+    display: none;
+    width: 100%;
+  }
+
+  .nav-menu .nav-list{
+    flex-direction: column;
+  }
+
+  .nav-link {
+    height: 38px;
+  }
+
+  .nav-link a {
+    line-height: 38px;
+  }
+
+  .work-link {
+    margin: 10px auto 0px;
+  }
+
+  #nav-dropdown {
+    display: flex;
+  }
+}
+
+@media (max-width: 425px) {
+  .toggle-button {
+    margin-right: 23px;
+    margin-top: 19px;
+  }
 }

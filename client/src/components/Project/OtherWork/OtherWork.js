@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react'
 import Card from '../../Card/Card'
 
 import '../../Work/styles.css'
+import './styles.css'
 
 import underscore from '../../Work/underscore.png'
 
@@ -42,16 +43,11 @@ function OtherWork(props) {
       />
     )
   }) : null;
-  const underscoreStyle = {
-    width: '30px',
-    height: '7px',
-    paddingTop: '47px',
-  }
   return (
     <section className='other-work' id='other-work'>
       <div className='title'>
         <h2>See More Work</h2>
-        <img style={underscoreStyle} src={underscore} alt='underscore'></img>
+        <img className='underscore' src={underscore} alt='underscore'></img>
       </div>
       <div className='cards'>
         {renderedCards }
