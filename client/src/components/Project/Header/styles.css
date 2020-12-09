@@ -156,7 +156,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
     margin-top: 42px;
-    margin-left: 15px;
+    margin-left: 5.5vw;
   }
 
   .header-txt h1, .header-txt p {
@@ -174,7 +174,7 @@
     width: 231.85px;
     height: 278.14px;
     margin-top: 31px;
-    margin-left: 68.15px;
+    margin-left: 37vw;
   }
 
   .projectImg {
@@ -182,7 +182,80 @@
     height: 274.61px;
     margin-top: -243.7px;
     right: 0;
-    left: 15px;
+    left: 12vw;
+  }
+
+  .run-down {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    flex-wrap: wrap;
+    margin: 73px auto 0;
+  }
+
+  .run-down div {
+    width: 100%;
+  }
+
+  .run-down h4 {
+    display: block;
+    width: max-content;
+    margin: auto;
+  }
+
+  .run-down ul {
+    width: 100%;
+    position: static;
+    margin-bottom: 41px;
+    margin-top: 25px;
+  }
+
+  .run-down li {
+    width: max-content;
+    margin: 0 auto 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-container {
+    grid-template-columns: auto;
+    grid-template-rows: 349px 316px 670px;
+  }
+
+  .header-txt {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 42px;
+    margin-left: 5.5vw;
+  }
+
+  .header-txt h1, .header-txt p {
+    width: 98%;
+  }
+
+  .header-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .project-img-back {
+    width: 231.85px;
+    height: 278.14px;
+    margin-top: 31px;
+    margin-left: 22vw;
+  }
+
+  .projectImg {
+    width: 245.59px;
+    height: 274.61px;
+    margin-top: -243.7px;
+    right: 0;
+    left: 8.5vw;
   }
 
   .run-down {

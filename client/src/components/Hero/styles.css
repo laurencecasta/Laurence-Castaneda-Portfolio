@@ -111,9 +111,35 @@ p {
     flex-direction: column;
   }  
   .hero-text {
+    margin-left: 5.5vw;
+    margin-top: 29px;
+    width: 92vw;
+  }
+
+  .image .rectangle {
+    width: 231.85px;
+    height: 278.14px;
+    margin-left: 27.5vw;
+    margin-top: 28px;
+  }
+
+  #hero-img {
+    width: 245.59px;
+    height: 274.61px;
+    position: relative;
+    left: 17vw;
+    margin-top: -243.7px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero {
+    flex-direction: column;
+  }  
+  .hero-text {
     margin-left: 15px;
     margin-top: 29px;
-    width: 295px;
+    width: 92vw;
   }
 
   .image .rectangle {

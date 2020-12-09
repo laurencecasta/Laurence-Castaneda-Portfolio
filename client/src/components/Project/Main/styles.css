@@ -66,3 +66,27 @@ main p {
     margin-top: 100px;
   }
 }
+
+@media (max-width: 320px) {
+  main {
+    margin-left: 15px;
+    margin-top: 95px;
+  }
+
+  main p {
+    width: 98%;
+  }
+
+  .process-container {
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .process-container p {
+    width: 98%;
+  }
+
+  .result {
+    margin-top: 100px;
+  }
+}
