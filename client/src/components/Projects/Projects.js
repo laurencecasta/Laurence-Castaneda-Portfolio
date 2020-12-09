@@ -26,7 +26,8 @@ function Projects() {
   const renderedProjects = data.projects ? data.projects.map(project => {
     const  { project_uid, title, route_name, path_name, roles, languages, tools,
       project_summary, scope_description, process_description,
-      process_description_2, result_description } = project;
+      process_description_2, result_description,
+      live_link, github_repo_link } = project;
     return (
       <Route path={route_name} key={project_uid}>
         <Project
@@ -41,6 +42,8 @@ function Projects() {
           processDescription={process_description}
           processDescription2={process_description_2}
           resultDescription={result_description}
+          liveLink={live_link}
+          githubRepo={github_repo_link}
         />
       </Route>
     )

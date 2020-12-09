@@ -6,7 +6,8 @@ import OtherWork from './OtherWork/OtherWork'
 
 function Project(props) {
   const { title, summary, roles, languages, tools, imgPath,
-    scopeDescription, processDescription, processDescription2, resultDescription } = props;
+    scopeDescription, processDescription, processDescription2, resultDescription,
+    liveLink, githubRepo } = props;
   return (
     <div>
       <Header
@@ -22,6 +23,8 @@ function Project(props) {
         processDescription={processDescription}
         processDescription2={processDescription2}
         resultDescription={resultDescription}
+        liveLink={liveLink}
+        githubRepo={githubRepo}
       />
       <OtherWork
         currentTitle={title}

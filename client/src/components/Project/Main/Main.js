@@ -7,7 +7,8 @@ import './styles.css'
 import underscore from './underscore.png'
 
 function Main(props) {
-  const { scopeDescription, processDescription, processDescription2, resultDescription } = props;
+  const { scopeDescription, processDescription, processDescription2,
+    resultDescription, liveLink, githubRepo } = props;
   return (
     <main>
       <div className='scope'>
@@ -17,7 +18,10 @@ function Main(props) {
         </div>
         <p>{ scopeDescription }</p>
       </div>
-      <ProjectLinks />
+      <ProjectLinks
+        liveLink={liveLink}
+        githubRepo={githubRepo}
+      />
       <div className='process-container'>
         <div className='process'>
           <div className='title' id='process-title'>
@@ -35,7 +39,10 @@ function Main(props) {
         </div>
         <p>{ resultDescription }</p>
       </div>
-      <ProjectLinks />
+      <ProjectLinks
+        liveLink={liveLink}
+        githubRepo={githubRepo}
+      />
     </main>
   )
 }
