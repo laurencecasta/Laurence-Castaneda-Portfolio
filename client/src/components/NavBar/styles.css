@@ -91,16 +91,27 @@ header {
     flex-direction: column;
   }
 
-  .nav-link {
+  .nav-link, .work-link {
     height: 38px;
   }
 
-  .nav-link a {
+  .nav-link a, .work-link a {
     line-height: 38px;
   }
 
+
+  .work-link-container {
+    width: max-content;
+    height: max-content;
+    margin: 10px auto 0;
+  }
+
   .work-link {
-    margin: 10px auto 0px;
+    margin: 0 auto 0px;
+  }
+  .nav-menu #work {
+    height: 38px;
+    line-height: 38px;
   }
 
   #nav-dropdown {
