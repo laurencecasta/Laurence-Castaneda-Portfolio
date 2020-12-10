@@ -28,7 +28,7 @@ function Work() {
     data.projects
   );
 
-  const renderedCards = data.projects ? data.projects.map(project => {
+  const renderedCards = data.projects ? data.projects.filter(project => project.title !== 'Browser Calculator' && project.title !== 'Etch-a-Sketch').map(project => {
     const  { project_uid, image_path, title, project_description, languages, route_name } = project;
     return (
       <Card

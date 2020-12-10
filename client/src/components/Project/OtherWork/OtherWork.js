@@ -30,7 +30,7 @@ function OtherWork(props) {
     data.projects
   );
 
-  const renderedCards = data.projects ? data.projects.filter(project => project.title !== currentTitle).map(project => {
+  const renderedCards = data.projects ? data.projects.filter(project => project.title !== currentTitle && project.title !== 'Browser Calculator' && project.title !== 'Etch-a-Sketch').map(project => {
     const  { project_uid, image_path, title, project_description, languages, route_name } = project;
     return (
       <Card
