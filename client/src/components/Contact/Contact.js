@@ -17,7 +17,7 @@ function Contact() {
           <h2>Let's Connect!</h2>
           <img className='underscore' src={underscore} alt='underscore'></img>
         </div>
-        <p id='contact-prompt'>Fill out the form below and I'll respond within the next 24 hours.</p>
+        <p id='contact-prompt'>Fill out the form below, and I'll respond within the next 24 hours.</p>
         <form id='contact-form'>
           <label htmlFor='name-input'>Name</label>
           <input type='text' id='name-input' name='name-input'/>
