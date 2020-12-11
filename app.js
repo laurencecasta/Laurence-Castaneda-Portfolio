@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-app.use('/api/', require('./routes/projects'))
+app.use('/api/', require('./routes/projects'));
 
 const PORT = 5000;
 
