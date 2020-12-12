@@ -43,7 +43,7 @@ function Work() {
   }) : null;
 
   return (
-    <section className='work' id='work'>
+    <section className='work' id='work-section'>
       <div className='title'>
         <h2>Work</h2>
         <img className='underscore' src={underscore} alt='underscore'></img>

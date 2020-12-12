@@ -32,9 +32,9 @@ function NavBar() {
         <ul className='nav-list'>
           <li className='nav-link'><a href='/'>Home</a></li>
           <li className='nav-link'><a href='/#about'>About</a></li>
-          <li className='nav-link'><a href='#contact'>Contact</a></li>
+          <li className='nav-link'><a href='/#contact'>Contact</a></li>
           <li className='nav-link'><a href='/'>Resume</a></li>
-          <li className='work-link-container'><a className='work-link' id='work' href='#work'>See My Work</a></li>
+          <li className='work-link-container'><a className='work-link' id='work' href='/#work-section'>See My Work</a></li>
         </ul>
       </nav>
     </header>
