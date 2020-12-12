@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "deploy-build": "npm run build && rsync /home/laurence/web-projects/portfolio/client/build/ laurence@67.205.163.51:/srv/portfolio-app/"
   },
   "eslintConfig": {
     "extends": [
