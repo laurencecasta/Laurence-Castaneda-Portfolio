@@ -57,20 +57,56 @@ header {
 
 .toggle-button {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 15px;
+  right: 15px;
   display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 18px;
-  height: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
-.toggle-button .bar {
-  height: 1.8px;
+.toggle-button-burger {
+  position: absolute;
+  height: 1.5px;
   width: 100%;
   background-color: white;
   border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggle-button-burger::before,
+.toggle-button-burger::after {
+  position: absolute;
+  content: '';
+  height: 1.5px;
+  width: 100%;
+  background-color: white;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggle-button-burger::before {
+  top: -6px;
+}
+
+.toggle-button-burger::after {
+  top: 6px;
+}
+
+.toggle-button.open .toggle-button-burger {
+  transform: translateX(-20px);
+  background: transparent;
+}
+
+.toggle-button.open .toggle-button-burger::before {
+  transform: rotate(45deg) translate(14.142px, -5.8px);
+}
+
+.toggle-button.open .toggle-button-burger::after {
+  transform: rotate(-45deg) translate(14.142px, 5.8px);
 }
 
 @media (max-width: 768px) {
@@ -116,6 +152,19 @@ header {
 
   #nav-dropdown {
     display: flex;
+    animation: slideIn 0.35s ease-in;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-400px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
   }
 }
 
