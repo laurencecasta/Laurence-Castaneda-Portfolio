@@ -74,20 +74,20 @@
 }
 
 .project-img-back {
-  width: 405px;
-  height: 503px;
+  width: 582px;
+  height: 368px;
   background: #222129;
   border-radius: 20px;
-  margin-right: 115px;
-  margin-top: 56px;
+  margin-right: 50px;
+  margin-top: 78px;
 }
 
 .projectImg {
-  width: 428px;
-  height: 497px;
+  width: 582px;
+  height: 368px;
   border-radius: 20px;
-  margin-top: -441px;
-  margin-left: -92px;
+  margin-top: -331px;
+  margin-left: -37px;
 }
 
 @media (max-width: 768px) {
@@ -107,7 +107,7 @@
   .header-txt p {
     font-size: 22px;
     line-height: 140%;
-    width: 370px;
+    width: 325px;
   }
 
   .run-down {
@@ -128,26 +128,26 @@
   }
 
   .project-img-back {
-    width: 253px;
-    height: 315px;
-    margin-top: 50px;
-    margin-right: 20px;
+    width: 347.03px;
+    height: 221.16px;
+    margin-top: 85px;
+    margin-right: 41px;
   }
 
   .projectImg {
-    width: 268px;
-    height: 311px;
-    margin-top: -276px;
+    width: 347.03px;
+    height: 221.16px;
+    margin-top: -198.38px;
     margin-left: 0;
     position: relative;
-    right: 43px;
+    right: 25px;
   }
 }
 
 @media (max-width: 425px) {
   .header-container {
     grid-template-columns: auto;
-    grid-template-rows: 272px 316px 670px;
+    grid-template-rows: 272px 235px 670px;
   }
 
   .header-txt {
@@ -171,15 +171,15 @@
   }
 
   .project-img-back {
-    width: 231.85px;
-    height: 278.14px;
-    margin-top: 31px;
-    margin-left: 37vw;
+    width: 267.34px;
+    height: 170.38px;
+    margin-top: 36px;
+    margin-left: 23vw;
   }
 
   .projectImg {
-    width: 245.59px;
-    height: 274.61px;
+    width: 267.34px;
+    height: 170.38px;
     margin-top: -243.7px;
     right: 0;
     left: 12vw;
@@ -220,7 +220,7 @@
 @media (max-width: 320px) {
   .header-container {
     grid-template-columns: auto;
-    grid-template-rows: 349px 316px 670px;
+    grid-template-rows: 349px 260px 670px;
   }
 
   .header-txt {
@@ -244,18 +244,18 @@
   }
 
   .project-img-back {
-    width: 231.85px;
-    height: 278.14px;
+    width: 267.34px;
+    height: 170.38px;
     margin-top: 31px;
-    margin-left: 22vw;
+    margin-left: 10.5vw;
   }
 
   .projectImg {
-    width: 245.59px;
-    height: 274.61px;
-    margin-top: -243.7px;
+    width: 267.34px;
+    height: 170.38px;
+    margin-top: -230px;
     right: 0;
-    left: 8.5vw;
+    left: 5.5vw;
   }
 
   .run-down {
