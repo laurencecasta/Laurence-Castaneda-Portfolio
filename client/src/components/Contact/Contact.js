@@ -1,13 +1,13 @@
-import React, { useReducer } from 'react'
+import React, { useReducer, useState } from 'react';
 
-import Social from '../Social/Social'
+import Social from '../Social/Social';
 
-import './styles.css'
+import './styles.css';
 
-import underscore from './underscore.png'
-import linkedin from './linkedin.png'
-import github from './github.png'
-import mail from './mail.png'
+import underscore from './underscore.png';
+import linkedin from './linkedin.png';
+import github from './github.png';
+import mail from './mail.png';
 
 const initialState = {
   name: '',
@@ -40,6 +40,7 @@ function reducer(state, action) {
 
 function Contact() {
   const [state, dispatch] = useReducer(reducer, initialState);
+  const [sent, setSent] = useState(false);
 
   const onChange = (e) => {
     dispatch({type: ACTIONS.CONTROL_FORM, payload: { field: e.target.name, value: e.target.value }})
@@ -65,9 +66,8 @@ function Contact() {
         console.log(e);
       }
     }
+    setSent(true);
     postEmailData();
-
-    dispatch({type: ACTIONS.RESET_FORM});
   }
 
   return (
@@ -75,9 +75,11 @@ function Contact() {
       <div className='contact-start'>
         <div className='title' id='contact-title'>
           <h2>Let's Connect!</h2>
-          <img className='underscore' src={underscore} alt='underscore'></img>
+          <img id='contact-underscore' className='underscore' src={underscore} alt='underscore'></img>
         </div>
-        <p id='contact-prompt'>Fill out the form below, and I'll respond within the next 24 hours.</p>
+        <p id='contact-prompt'>{sent ? '' : "Fill out the form below, and I'll respond within the next 24 hours."}</p>
+        {sent ? 
+        <h4 className='send-success'>Your message was sent!</h4> :
         <form id='contact-form' onSubmit={onSubmit}>
           <label htmlFor='name-input'>Name</label>
           <input type='text' id='name-input' name='name' onChange={onChange} value={name}/>
@@ -86,7 +88,7 @@ function Contact() {
           <label htmlFor='message'>Message</label>
           <textarea id='message' name='message' onChange={onChange} value={message}/>
           <button>Submit</button>
-        </form>
+        </form>}
       </div>
       <div className='contact-end'>
         <Social
