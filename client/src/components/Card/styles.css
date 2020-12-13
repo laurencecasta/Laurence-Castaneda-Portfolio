@@ -44,6 +44,11 @@
   border-radius: 20px;
   margin-left: 17.78px;
 }
+
+.card a:hover {
+  opacity: 0.75;
+}
+
 .cardImg {
   width: 320px;
   height: 191px;

@@ -11,7 +11,7 @@ function Social(props) {
   }
   return (
     <a href={link} className='socials'>
-      <img style={iconStyle} src={icon} alt='linkedin'></img>
+      <img style={iconStyle} src={icon} alt='social media link'></img>
       <span>{socialName}</span>
     </a>
   )

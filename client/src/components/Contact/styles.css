@@ -91,7 +91,8 @@ button:focus {
 }
 
 button:hover {
-  background: #7e58e6;
+  /* background: #7e58e6; */
+  opacity: 0.75;
 }
 
 .contact-end {
