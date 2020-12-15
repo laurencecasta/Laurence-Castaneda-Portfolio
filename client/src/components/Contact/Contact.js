@@ -8,6 +8,7 @@ import underscore from './underscore.png';
 import linkedin from './linkedin.png';
 import github from './github.png';
 import mail from './mail.png';
+import check from './check.png';
 
 const initialState = {
   name: '',
@@ -79,7 +80,17 @@ function Contact() {
         </div>
         <p id='contact-prompt'>{sent ? '' : "Fill out the form below, and I'll respond within the next 24 hours."}</p>
         {sent ? 
-        <h4 className='send-success'>Your message was sent!</h4> :
+        <div className='send-success'>
+          <img className='check' src={check} alt='check'></img>
+          <h4 className='successTitle'>Your message was sent!</h4>
+          <p className='successMessage'>
+            Thanks for connecting. I’ll be in touch within the next 24 hours! In the meantime, you can download my resume or see more work.
+          </p>
+          <div className='project-links success-link'>
+            <a className='live-link' href='/Laurence-Castaneda-Resume-2020.docx' download>Download Resume</a>
+            <a className='github-link' href={'/#work-section'}>See More Work</a>
+          </div>
+        </div> :
         <form id='contact-form' onSubmit={onSubmit}>
           <label htmlFor='name-input'>Name</label>
           <input type='text' id='name-input' name='name' onChange={onChange} value={name}/>

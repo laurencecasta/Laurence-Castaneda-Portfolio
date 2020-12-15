@@ -105,14 +105,45 @@ button:hover {
 }
 
 .send-success {
-  background: -webkit-linear-gradient(40deg, #AE63FD, rgb(52, 203, 220));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 25px;
-  margin-top: 15px;
-  width: 100%;
+  background: #040305;
+  margin-top: 47.23px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  width: 81%;
+  animation: fadeIn 0.75s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1.0;
+  }
+}
+
+.check {
+  width: 39.38px;
+  height: 33.11px;
+  display: block;
+  margin: auto;
+  padding-top: 33px;
+}
+
+.successTitle {
   font-size: 24px;
-  line-height: 34px;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 7.27px;
+}
+
+.contact-start .successMessage {
+  width: 370px;
+  height: 72px;
+  margin: 27px auto 0;
+  font-size: 18px;
+  line-height: 133%;
 }
 
 @media (max-width: 768px) {
@@ -152,6 +183,13 @@ button:hover {
 @media (max-width: 425px) {
   .send-success {
     text-align: center;
+    margin: 47.23px auto 0;
+  }
+
+  .contact-start .successMessage {
+    width: 85%;
+    height: max-content;
+    text-align: start;
   }
 
   .contact-start {
@@ -199,6 +237,11 @@ button:hover {
 }
 
 @media (max-width: 320px) {
+  .successTitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
   .contact-start {
     padding-left: 0;
   }
