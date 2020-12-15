@@ -46,7 +46,7 @@ main p {
 @media (max-width: 425px) {
   main {
     margin-left: 15px;
-    margin-top: 95px;
+    margin-top: 0px;
   }
 
   main p {

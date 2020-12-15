@@ -147,7 +147,7 @@
 @media (max-width: 425px) {
   .header-container {
     grid-template-columns: auto;
-    grid-template-rows: 272px 235px 670px;
+    grid-template-rows: 272px 301px 670px;
   }
 
   .header-txt {
@@ -168,21 +168,21 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    margin: 0 auto;
+    width: 95%;
   }
 
   .project-img-back {
-    width: 267.34px;
-    height: 170.38px;
-    margin-top: 36px;
-    margin-left: 23vw;
+    display: none;
   }
 
   .projectImg {
-    width: 267.34px;
-    height: 170.38px;
-    margin-top: -243.7px;
-    right: 0;
-    left: 12vw;
+    border-radius: 0;
+    width: 403.75px;
+    height: 58.48vw;
+    max-width: 100%;
+    margin: 49px auto 0;
+    position: static;
   }
 
   .run-down {
@@ -243,17 +243,8 @@
     grid-row-end: 3;
   }
 
-  .project-img-back {
-    width: 267.34px;
-    height: 170.38px;
-    margin-top: 31px;
-    margin-left: 10.5vw;
-  }
-
   .projectImg {
-    width: 267.34px;
-    height: 170.38px;
-    margin-top: -230px;
+    margin-top: 49px;
     right: 0;
     left: 5.5vw;
   }
