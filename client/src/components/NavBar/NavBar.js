@@ -7,7 +7,7 @@ import './styles.css'
 import logo from './lc-logo.png'
 
 function NavBar() {
-  const [display, setDisplay] = useState(false);
+  const [display, setDisplay] = useState(0);
   const logoStyle = {
     width: '118px',
     height: '78px',
@@ -17,7 +17,7 @@ function NavBar() {
   }
   const toggleMenu = (e) => {
     e.preventDefault();
-    setDisplay(!display);
+    setDisplay(display + 1);
     console.log(display);
   }
   return (
@@ -28,7 +28,9 @@ function NavBar() {
           display={display}
         />
       </a>
-      <nav id = {display ? 'nav-dropdown' : ''} className = 'nav-menu'>
+      <nav id = {display % 2 > 0 && display ? 'nav-dropdown' : display ? 'nav-fadeup' : ''}
+        className = 'nav-menu'
+      >
         <ul className='nav-list'>
           <li className='nav-link'><a href='/'>Home</a></li>
           <li className='nav-link'><a href='/#about'>About</a></li>
