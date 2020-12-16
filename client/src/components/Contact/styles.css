@@ -104,6 +104,11 @@ button:hover {
   margin-bottom: 48px;
 }
 
+.error {
+  color: #D74634;
+  margin-top: 10px;
+}
+
 .send-success {
   background: #040305;
   margin-top: 47.23px;
