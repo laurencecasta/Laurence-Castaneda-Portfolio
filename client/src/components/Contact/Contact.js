@@ -51,6 +51,9 @@ function Contact() {
   const [sent, setSent] = useState(false);
 
   const onChange = (e) => {
+    if (validate()) {
+      validate();
+    }
     dispatch({type: ACTIONS.CONTROL_FORM, payload: { field: e.target.name, value: e.target.value }})
   }
 
@@ -115,12 +118,14 @@ function Contact() {
     return true;
   }
 
-  const onSubmit = (e) => {
-    e.preventDefault();
+  const onSubmit = (e = null) => {
+    if (e) {
+      e.preventDefault();
+    }
 
     let isValid = validate();
     if (!isValid) {
-      console.log('invalid email!');
+      console.log(isValid ? 'Something went wrong...' : '');
       return;
     }
 
@@ -141,6 +146,12 @@ function Contact() {
     }
     setSent(true);
     postEmailData();
+  }
+
+  const onBlur = () => {
+    if (!validate()) {
+      validate();
+    }
   }
 
   return (
@@ -165,13 +176,13 @@ function Contact() {
         </div> :
         <form id='contact-form' onSubmit={onSubmit}>
           <label htmlFor='name-input'>Name</label>
-          <input type='text' id='name-input' name='name' onChange={onChange} onBlur={() => validate()} value={name}/>
+          <input type='text' id='name-input' name='name' onChange={onChange} onBlur={onBlur} value={name}/>
           <div className='error'>{error.nameErr}</div>
           <label htmlFor='email'>Email</label>
-          <input type='text' id='email' name='email' onChange={onChange} onBlur={() => validate()} value={email}/>
+          <input type='text' id='email' name='email' onChange={onChange} onBlur={onBlur } value={email}/>
           <div className='error'>{error.emailErr}</div>
           <label htmlFor='message'>Message</label>
-          <textarea id='message' name='message' onChange={onChange} onBlur={() => validate()} value={message}/>
+          <textarea id='message' name='message' onChange={onChange} onBlur={onBlur} value={message}/>
           <div className='error'>{error.messageErr}</div>
           <button>Submit</button>
         </form>}
