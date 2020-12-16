@@ -1,7 +1,30 @@
 const nodemailer = require('nodemailer');
+const {body, validationResult} = require('express-validator');
+
+exports.validate = (method) => {
+  switch (method) {
+    case 'contactSubmission': {
+      return [
+        body('name', 'Name is required').notEmpty(),
+        body('email', 'Email is required').notEmpty(),
+        body('email', 'Please enter your email in the form: name@example.com').isEmail(),
+        body('message', 'Message is required').notEmpty()
+      ]
+    }
+    default :
+    return null;
+  }
+}
 
 exports.post_email = async (req, res) => {
   try {
+    // validate data
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+      res.status(422).json({ errors: errors.array() });
+      return;
+    }
     // create reusable transporter object using the default SMTP transport
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",

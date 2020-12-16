@@ -1,11 +1,14 @@
 const express = require('express');
 const cors = require('cors');
+const expressValidator = require('express-validator');
 
 const app = express();
 
 app.use(cors());
 
 app.use(express.json({limit: '1mb'}));
+
+// app.use(expressValidator());
 
 app.use('/api/', require('./routes/projects'));
 
