@@ -6,6 +6,7 @@
   margin-left: 184px;
   border-radius: 20px;
   display: block;
+  background: #222129;
 }
 
 .skillSets {
@@ -23,6 +24,7 @@
     margin-left: 0px;
     border-radius: 0px;
     height: 480px;
+    background: none;
   }
 
   .skillSets {
@@ -38,5 +40,7 @@
   }
   .skillSets {
     flex-direction: column;
+    height: 940px;
+    justify-content: space-between;
   }
 }
