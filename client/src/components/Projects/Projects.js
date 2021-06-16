@@ -12,7 +12,7 @@ function Projects() {
     const fetchProjects = async () => {
       try {
         setData({projects: [], isFetching: true});
-        const response = await fetch('/api/projects/pages');
+        const response = await fetch('https://laurence-castaneda-portfolio.vercel.app/api/projects/pages');
         const projects = await response.json();
         setData({projects: projects, isFetching: false});
       } catch (e) {

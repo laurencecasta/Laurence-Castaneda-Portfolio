@@ -12,8 +12,7 @@ function Work() {
     const fetchProjects = async () => {
       try {
         setData({projects: [], isFetching: true});
-        const response = await fetch('/api/projects');
-        console.log('Repsponse:\n', response.json)
+        const response = await fetch('https://laurence-castaneda-portfolio.vercel.app/api/projects/');
         const projects = await response.json();
         setData({projects: projects, isFetching: false});
       } catch (e) {
